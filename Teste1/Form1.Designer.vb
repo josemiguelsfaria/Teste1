@@ -27,6 +27,7 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.SuspendLayout()
         '
         'Button1
@@ -73,11 +74,21 @@ Partial Class Form1
         Me.TextBox2.Size = New System.Drawing.Size(300, 185)
         Me.TextBox2.TabIndex = 4
         '
+        'GroupBox1
+        '
+        Me.GroupBox1.Location = New System.Drawing.Point(340, 29)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(325, 433)
+        Me.GroupBox1.TabIndex = 5
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "GroupBox1"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(350, 482)
+        Me.ClientSize = New System.Drawing.Size(701, 482)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -95,5 +106,6 @@ Partial Class Form1
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
 
 End Class
